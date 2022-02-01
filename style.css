@@ -1,0 +1,248 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container{
+    height: 50px;
+
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    background-color: blue;
+
+}
+.container h4{
+    top: 13px;
+    position: relative;
+    left: 15%;
+    color: white;
+}
+.container h4 i{
+    position: relative;
+    padding: 5px;
+}
+.navigation{
+    height: 17vh;
+    background-color: skyblue;
+    align-items: center;
+    position: relative;
+}
+.nav{
+    display: flex;
+}
+.nav ul {
+    display: flex;
+    margin: auto;
+    
+ 
+}
+
+.nav li {
+  list-style: none;
+  padding: 50px;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.home{
+    background-color: rgb(53, 52, 52);
+    height: 50vh;
+    position: relative;
+    align-items: center;
+
+}
+.home h1{
+    color: white;
+    position: relative;
+    top: 3em;
+    left: 150px;
+    
+}
+.home .red{
+    position: relative;
+    top: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    left: 150px;
+
+}
+.home .red:hover{
+    background-color: green;
+    color: white;
+}
+.home .green{
+    position: relative;
+    top: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    left: 170px;
+
+}
+.home .green:hover{
+    background-color: green;
+    color: white;
+}
+.home img{
+    height: 30vh;
+    position: relative;
+    left: 400px;
+}
+.services{
+    position: relative;
+    height: 50vh;
+    background-color: rgb(202, 248, 250);
+    width: 70%;
+    border-radius: 30px;
+    margin: auto;
+    bottom: 15px;
+}
+.services img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 2em;
+    left: 290px;
+    padding: 7px;
+
+}
+.services i{
+    position: relative;
+    color: rgb(128, 101, 101);
+    left: 480px;
+    padding: 7px;
+    top: 1em;
+
+}
+.aboutus{
+    height: 50vh;
+    width: 60%;
+    
+    margin: auto;
+    overflow-y: hidden;
+
+
+}
+.aboutus h5{
+    line-height:2;
+    position: relative;
+    top: 2em;
+    
+}
+.aboutus img{
+    position: relative;
+    bottom: 200px;
+    left: 700px;
+    height: 300px;
+    border-radius: 30px;
+}
+.chooses{
+    background-color: rgb(178, 239, 243);
+    height: 50vh;
+    align-items: center;
+    position: relative;
+    display: flex;
+
+
+}
+.chooses .choose{
+    position: relative;
+    border: 1px solid black ;
+    height: 150px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+.forpatients{
+    height: 80vh;
+    /* background-color: grey; */
+    position: relative;
+    align-items: center;
+    display: flex;
+   
+   
+   
+   
+
+}
+.forpatients .card{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    align-items: center;
+    top: 2em;
+    position: relative;
+    left: 10px;
+    margin: auto;
+
+}
+.forpatients .card img{
+    height: 350px;
+
+}
+.forpatients .card button{
+    height: 30px;
+    width: 70px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.forpatients .card button:hover{
+    background-color: white;
+    color: black;
+}
+.read{
+    position: relative;
+   left: 50%;
+}
+.blog{
+     height: 90vh;
+    /* background-color: grey; */
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.blog .card1{
+    height: 550px;
+    width: 300px;
+    background-color: white;
+    align-items: center;
+    top: 2em;
+    position: relative;
+    left: 10px;
+    margin: auto;
+
+}
+.blog .card1 i{
+    position: relative;
+    top: 1em;
+    padding: 5px;
+}
+.contact{
+    background-color: rgb(157, 228, 224);
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+
+}
+.contact .company{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    position: relative;
+    top: 2em;
+    margin: auto;
+  
+}
